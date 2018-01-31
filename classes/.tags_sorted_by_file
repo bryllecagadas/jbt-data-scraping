@@ -1,0 +1,53 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CURLAccess	CURLAccess.php	/^class CURLAccess {$/;"	c
+__construct	CURLAccess.php	/^	public function __construct() {$/;"	f
+ch	CURLAccess.php	/^			$this->ch = curl_init($url);$/;"	v
+ch	CURLAccess.php	/^	private $ch;$/;"	v
+connect	CURLAccess.php	/^	protected function connect() {$/;"	f
+current_page	CURLAccess.php	/^		$this->current_page = curl_getinfo($this->ch, CURLINFO_EFFECTIVE_URL);$/;"	v
+current_page	CURLAccess.php	/^	protected $current_page;$/;"	v
+disconnect	CURLAccess.php	/^	protected function disconnect() {$/;"	f
+downloadTo	CURLAccess.php	/^	protected function downloadTo($file_handler) {$/;"	f
+follow	CURLAccess.php	/^	protected function follow() {$/;"	f
+headers	CURLAccess.php	/^		$headers = $this->headers;$/;"	v
+headers	CURLAccess.php	/^	protected $headers;$/;"	v
+headers	CURLAccess.php	/^	protected function headers($header) {$/;"	f
+host	CURLAccess.php	/^	protected $host;$/;"	v
+info	CURLAccess.php	/^		$info = $this->info();$/;"	v
+info	CURLAccess.php	/^	protected function info() {$/;"	f
+init	CURLAccess.php	/^	protected function init($url) {$/;"	f
+origin	CURLAccess.php	/^	protected $origin;$/;"	v
+post	CURLAccess.php	/^	protected function post($data) {$/;"	f
+referer	CURLAccess.php	/^		$this->referer = $referer;$/;"	v
+referer	CURLAccess.php	/^	protected $referer;$/;"	v
+referer	CURLAccess.php	/^	protected function referer($referer) {$/;"	f
+response	CURLAccess.php	/^		$response = curl_exec($this->ch);$/;"	v
+success	CURLAccess.php	/^	protected function success() {$/;"	f
+useragent	CURLAccess.php	/^	protected $useragent;$/;"	v
+Config	Config.php	/^class Config {$/;"	c
+GetInstance	Config.php	/^	public static function GetInstance() {$/;"	f
+__construct	Config.php	/^	protected  function __construct() {$/;"	f
+config	Config.php	/^		$config = json_decode(file_get_contents('.config'));$/;"	v
+instance	Config.php	/^	private static $instance = null;$/;"	v
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+JBTAccess	JBTAccess.php	/^class JBTAccess extends CURLAccess {$/;"	c
+__construct	JBTAccess.php	/^	public function __construct() {$/;"	f
+close	JBTAccess.php	/^	public function close() {$/;"	f
+download	JBTAccess.php	/^	public function download($data, $filename) {$/;"	f
+head	JBTAccess.php	/^		$head = file_get_contents('.tmpfile',false, null, 0, 300);$/;"	v
+host	JBTAccess.php	/^		$this->host = "www.juiceplusvirtualoffice.com";$/;"	v
+login	JBTAccess.php	/^	public function login($username, $password, $franciseId) {$/;"	f
+origin	JBTAccess.php	/^		$this->origin = "https:\/\/www.juiceplusvirtualoffice.com";$/;"	v
+referer	JBTAccess.php	/^		$this->referer = "https:\/\/www.juiceplusvirtualoffice.com\/esuite\/control\/mainView";$/;"	v
+response	JBTAccess.php	/^		$response = $this->connect();$/;"	v
+useragent	JBTAccess.php	/^		$this->useragent = "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/63.0.3239.132 Safari\/537.36";$/;"	v
+GetInstance	Log.php	/^	public static function GetInstance() {$/;"	f
+Log	Log.php	/^class Log {$/;"	c
+__construct	Log.php	/^	protected  function __construct() {$/;"	f
+instance	Log.php	/^	private static $instance = null;$/;"	v
+logfile	Log.php	/^	private $logfile = '.log';$/;"	v
+message	Log.php	/^	public function message($message) {$/;"	f
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

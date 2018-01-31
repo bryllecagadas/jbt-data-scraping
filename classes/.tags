@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CURLAccess	CURLAccess.php	/^class CURLAccess {$/;"	c
+Config	Config.php	/^class Config {$/;"	c
+GetInstance	Config.php	/^	public static function GetInstance() {$/;"	f
+GetInstance	Log.php	/^	public static function GetInstance() {$/;"	f
+JBTAccess	JBTAccess.php	/^class JBTAccess extends CURLAccess {$/;"	c
+Log	Log.php	/^class Log {$/;"	c
+__construct	CURLAccess.php	/^	public function __construct() {$/;"	f
+__construct	Config.php	/^	protected  function __construct() {$/;"	f
+__construct	JBTAccess.php	/^	public function __construct() {$/;"	f
+__construct	Log.php	/^	protected  function __construct() {$/;"	f
+ch	CURLAccess.php	/^			$this->ch = curl_init($url);$/;"	v
+ch	CURLAccess.php	/^	private $ch;$/;"	v
+close	JBTAccess.php	/^	public function close() {$/;"	f
+config	Config.php	/^		$config = json_decode(file_get_contents('.config'));$/;"	v
+connect	CURLAccess.php	/^	protected function connect() {$/;"	f
+current_page	CURLAccess.php	/^		$this->current_page = curl_getinfo($this->ch, CURLINFO_EFFECTIVE_URL);$/;"	v
+current_page	CURLAccess.php	/^	protected $current_page;$/;"	v
+disconnect	CURLAccess.php	/^	protected function disconnect() {$/;"	f
+download	JBTAccess.php	/^	public function download($data, $filename) {$/;"	f
+downloadTo	CURLAccess.php	/^	protected function downloadTo($file_handler) {$/;"	f
+follow	CURLAccess.php	/^	protected function follow() {$/;"	f
+head	JBTAccess.php	/^		$head = file_get_contents('.tmpfile',false, null, 0, 300);$/;"	v
+headers	CURLAccess.php	/^		$headers = $this->headers;$/;"	v
+headers	CURLAccess.php	/^	protected $headers;$/;"	v
+headers	CURLAccess.php	/^	protected function headers($header) {$/;"	f
+host	CURLAccess.php	/^	protected $host;$/;"	v
+host	JBTAccess.php	/^		$this->host = "www.juiceplusvirtualoffice.com";$/;"	v
+info	CURLAccess.php	/^		$info = $this->info();$/;"	v
+info	CURLAccess.php	/^	protected function info() {$/;"	f
+init	CURLAccess.php	/^	protected function init($url) {$/;"	f
+instance	Config.php	/^	private static $instance = null;$/;"	v
+instance	Log.php	/^	private static $instance = null;$/;"	v
+logfile	Log.php	/^	private $logfile = '.log';$/;"	v
+login	JBTAccess.php	/^	public function login($username, $password, $franciseId) {$/;"	f
+message	Log.php	/^	public function message($message) {$/;"	f
+origin	CURLAccess.php	/^	protected $origin;$/;"	v
+origin	JBTAccess.php	/^		$this->origin = "https:\/\/www.juiceplusvirtualoffice.com";$/;"	v
+post	CURLAccess.php	/^	protected function post($data) {$/;"	f
+referer	CURLAccess.php	/^		$this->referer = $referer;$/;"	v
+referer	CURLAccess.php	/^	protected $referer;$/;"	v
+referer	CURLAccess.php	/^	protected function referer($referer) {$/;"	f
+referer	JBTAccess.php	/^		$this->referer = "https:\/\/www.juiceplusvirtualoffice.com\/esuite\/control\/mainView";$/;"	v
+response	CURLAccess.php	/^		$response = curl_exec($this->ch);$/;"	v
+response	JBTAccess.php	/^		$response = $this->connect();$/;"	v
+success	CURLAccess.php	/^	protected function success() {$/;"	f
+useragent	CURLAccess.php	/^	protected $useragent;$/;"	v
+useragent	JBTAccess.php	/^		$this->useragent = "Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/63.0.3239.132 Safari\/537.36";$/;"	v
